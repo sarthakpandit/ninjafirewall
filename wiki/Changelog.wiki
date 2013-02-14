@@ -1,6 +1,6 @@
 = Changelog =
 
-`v1.1.0 ============================================================`
+===v1.1.0===
 
 `[*] better XSS detection (UTF-7 encoding, BBcode etc).`
 
@@ -14,13 +14,13 @@
 
 `[!] fixed some tiny bugs and typo.`
 
-`v1.0.9 ============================================================`
+===v1.0.9===
 
 `[+] security ruleset update.`
 
 `[!] fixed incorrect DOCUMENT_ROOT variable on some servers.`
 
-`v1.0.8 ============================================================`
+===v1.0.8===
 
 `[+] added stats from previous months in the 'Statistics' page.`
 
@@ -42,13 +42,13 @@
 
 `    instead of a wrong '403 Forbidden' message.`
 
-`v1.0.7 ============================================================`
+===v1.0.7===
 
 `[+] security ruleset update.`
 
 `[+] added 'From:' header to alerts sent by email.`
 
-`v1.0.6 ============================================================`
+===v1.0.6===
 
 `[+] added IPv4-mapped IPv6 addresses support to the whitelist.`
 
@@ -62,7 +62,7 @@
 
 `[+] security ruleset update.`
 
-`v1.0.5 ============================================================`
+===v1.0.5===
 
 `[+] tighten rules to better block some nasty obfuscated code injection`
 
@@ -74,7 +74,7 @@
 
 `[!] fixed a bug in the stats page that would display crazy averages.`
 
-`v1.0.4 ============================================================`
+===v1.0.4===
 
 `[*] better filtering of multidimensional arrays in GET/POST requests.`
 
@@ -82,19 +82,19 @@
 
 `[+] X_FORWARDED_FOR strict verification to prevent XSS and injections.`
 
-`v1.0.3 ============================================================`
+===v1.0.3===
 
 `[+] option to block Linux binary files upload (ELF).`
 
 `[+] option to sanitise PHP_SELF, PATH_TRANSLATED and PATH_INFO.`
 
-`v1.0.2 ============================================================`
+===v1.0.2===
 
 `[+] option to block any POST request missing a referrer header.`
 
 `[+] option to automatically whitelist private IP address spaces.`
 
-`v1.0.1 ===========================================================`
+===v1.0.1===
 
 `[!] SCRIPT_NAME was missing from "Sanitising user input" log lines.`
 
